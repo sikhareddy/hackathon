@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AIRBNB</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<script>
+
+function startnow()
+{
+  window.location.replace = "post.html";
+}
+</script>
+<section>
+
+<div id ="boxid" class="box">
+<ul>
+
+<li><a href=""> HOME</a></li>
+
+
+</ul>
+
+</section>
+
+<section>
+
+<div id="title" class="center-title">
+
+<h1> AIRBNB </h1>
+
+</div>
+</section>
+</div>
+<section>
+    <div class="wd">
+<p class="reserve"><b>Reserve</b> a room to have a wonderful time on your off days</p>
+
+<form action="post.html" method="post" id="formid">
+  <div class="elem-group" id="sikha">
+    <label for="name">search</label>
+    <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+    
+  </div>
+  
+  <hr>
+  <div class="elem-group inlined">
+    <label for="people">No Of People</label>
+    <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+  </div>
+  
+  <div class="elem-group inlined">
+    <label for="checkin-date">arrival Date</label>
+    <input type="date" id="checkin-date" name="checkin" required>
+  </div>
+  
+  <div class="elem-group inlined">
+    <label for="checkin-date">departure Date</label>
+    <input type="date" id="checkin-date" name="checkin" required>
+
+  </div>
+  <button type="submit">Search</button> 
+  
+</form>
+<p><em>Copyright &copy; 2021 AIRBNB</em></p>
+</div>
+
+
+</body>
+
+
+</html>
